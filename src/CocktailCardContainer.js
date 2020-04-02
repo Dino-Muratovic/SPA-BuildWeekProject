@@ -12,6 +12,7 @@ const CocktailCardContainer = (props) => {
         <section>        
         {props.data.map((cocktail,index) => {
             // console.log(`this is cocktail -->`, cocktail)
+           
             return (
             //  Pass down the entire object to the child element in this case CocktailCard
                 <CocktailCard 

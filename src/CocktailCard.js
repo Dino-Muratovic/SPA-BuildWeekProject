@@ -15,7 +15,8 @@ const CocktailCard = (props) => {
                <div className="intro">
                     <h2>{getProp.strDrink}</h2>
                     <p>{getProp.strCategory}</p>
-               </div>
+               </div>              
+            
 
                <div className="img">
                     <img alt="cocktail-drink"src={getProp.strDrinkThumb}></img>
