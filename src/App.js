@@ -10,6 +10,7 @@ import Home from './Home';
 import Contact from './Contact';
 
 
+
 function App() {
 
 
@@ -41,7 +42,7 @@ useEffect(() => {
      {/* Set up your routes here -- LINKS are inside Header.js  */}
       <Switch>  
         {/* use data from useState and set it do the entire data object to pass it down to the child element in this case CocktailCardContainer*/}    
-        <Route path={'/recipes'}><CocktailCardContainer data={data}/></Route> -- {/* What was on line 49 here is done this way when adding router and passing data down*/}
+        <Route path={'/recipes'}><CocktailCardContainer data={data}/></Route> -- {/* What was on line 49 here is done this way when adding Route and passing data down*/}
         <Route path={'/contact'} component={Contact}/> 
         <Route exact path={'/'} component={Home}/>   
       </Switch>        

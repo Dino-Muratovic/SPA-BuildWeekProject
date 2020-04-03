@@ -2,10 +2,13 @@ import React from 'react';
 
 
 
+
 const CocktailCard = (props) => {
-//  console.log(`props inside the individual card`, props)
+//  console.log(`this is props ==>`, props); // WHAT IM TRYING TO PRINT
 
  const getProp = props.cocktailArray;
+
+   
  
 
     return (
